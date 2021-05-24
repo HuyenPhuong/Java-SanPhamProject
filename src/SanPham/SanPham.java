@@ -22,7 +22,7 @@ public class SanPham {
 	public double getTongTien() {
 		return tongTien;
 	}
-	
+
 	public double getSoLuong() {
 		return soLuong;
 	}
@@ -42,11 +42,12 @@ public class SanPham {
 	public void setSoLuong(double soLuong) {
 		this.soLuong = soLuong;
 	}
-	
+
 	public void setTongTien(double tongTien) {
 		this.tongTien = tongTien;
 	}
 
+	// Constructor
 	public double thanhTien(double giaBan, double soLuong) {
 		double tongtien = 0;
 
